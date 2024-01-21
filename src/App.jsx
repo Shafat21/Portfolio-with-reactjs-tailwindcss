@@ -48,7 +48,7 @@ function App() {
             <span className="text-[#05BFDB]">Shafat21</span>.dev
           </h1>
           <div className="flex gap-x-3">
-            <a href="https://shafat21.dragondesignstudio.com">
+            <a href="https://shafat21.dragonmind.website">
               <button className="w-32 h-10 rounded-md text-sm text-[#fff] transition duration-300 hover:text-[#05BFDB]  font-semibold ">
                 About
               </button>
@@ -83,10 +83,10 @@ function App() {
               <p className="text-lg font-medium">
                 I’m a web designer, founder of{" "}
                 <a
-                  href="https://shafat21.dragondesignstudio.com"
+                  href="https://shafat21.dragonmind.website"
                   className="decoration-2 decoration-wavy underline hover:text-[#05BFDB] hover:decoration-[#e2ebf8] decoration-[#05BFDB] font-bold transition duration-150"
                 >
-                  shafat21.dragondesignstudio.com
+                  shafat21.dragonmind.website
                 </a>
                 . 
               </p>

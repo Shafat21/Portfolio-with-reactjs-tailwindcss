@@ -83,10 +83,10 @@ function App() {
               <p className="text-lg font-medium">
                 I’m a web designer, founder of{" "}
                 <a
-                  href="https://shafat21.dragondesignstudio.com"
+                  href="https://shafat21.dragonmind.website"
                   className="decoration-2 decoration-wavy underline hover:text-[#05BFDB] hover:decoration-[#e2ebf8] decoration-[#05BFDB] font-bold transition duration-150"
                 >
-                  shafat21.dragondesignstudio.com
+                  shafat21.dragonmind.website
                 </a>
                 . 
               </p>

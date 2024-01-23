@@ -25,6 +25,7 @@ export const Data = {
       "Javascript",
       "SQL",
       "Github",
+      "Android Studio",
     ],
     softSkills: [
       "Frontend Web Designer",

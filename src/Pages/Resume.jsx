@@ -30,7 +30,8 @@ export const Resume = () => {
     <>
       <SEO  {...profile} {...aboutMe} />
       {!matches && <Menu {...menuSchema} />}
-      <main className="l-main bd-container" id="bd-container">
+      <main className="l-main bd-container" id="bd-container" data-aos="fade-down"
+      data-aos-duration="2000">
         <div className="resume" id="area-cv">
           <div className="resume__left">
             <Profile {...profile} />

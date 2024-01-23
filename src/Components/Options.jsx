@@ -10,7 +10,7 @@ export const Options = () => {
   }
 
   const [theme, setTheme] = useState(lsTheme || "light");
-  const [icon, setIcon] = useState(lsIcon || "bx-moon");
+  const [icon, setIcon] = useState(lsIcon || "bx-adjust");
 
   useEffect(() => {
     localStorage.setItem("theme", theme);
@@ -19,7 +19,7 @@ export const Options = () => {
   }, [theme, icon]);
   const _toggleTheme = () => {
     theme === "light" ? setTheme("dark") : setTheme("light");
-    icon === "bx-sun" ? setIcon("bx-moon") : setIcon("bx-sun");
+    icon === "bxs-adjust-alt" ? setIcon("bx-adjust") : setIcon("bxs-adjust-alt");
   };
 
   return (

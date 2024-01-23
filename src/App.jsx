@@ -48,7 +48,7 @@ function App() {
             <span className="text-[#05BFDB]">Shafat21</span>.dragonmind.<span className="text-[#05BFDB]">website</span>
           </h1>
           <div className="flex gap-x-3">
-            <a href="../cv.html">
+            <a href="#area-cv">
               <button className="w-32 h-10 rounded-md text-sm text-[#fff] transition duration-300 hover:text-[#05BFDB]  font-semibold ">
                 About
               </button>

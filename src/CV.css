@@ -6,12 +6,12 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  --title-color: #434c5e;
-  --text-color: #4c566a;
-  --text-color-light: #7b88a1;
-  --container-color: #ffffff;
-  --container-color-alt: #f7f9fb;
-  --body-color: #f2f4f8;
+  --title-color: #FFF;
+  --text-color: #FFF;
+  --text-color-light: #FFF;
+  --container-color: #2f425a;
+  --container-color-alt: #182b42;
+  --body-color: #a1a1a1;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -89,9 +89,9 @@ img {
 body.dark-theme {
   --title-color: #eceff4;
   --text-color: #b5c4db;
-  --container-color: #2e3440;
-  --container-color-alt: #3b4252;
-  --body-color: #242933;
+  --container-color: #111526;
+  --container-color-alt: #252b46;
+  --body-color: #111526;
 }
 
 /*========== Options button ==========*/

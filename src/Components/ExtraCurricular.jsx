@@ -6,15 +6,15 @@ export const ExtraCurricular = ({ extraCurricular }) => {
     <section className="extraCurricular-experience section" id="extraCurricular">
       <h2 className="section-title">EXTRA-CURRICULAR ACTIVITIES</h2>
       <div className="experience__container bd-grid">
-        {extraCurricular.map((proyect) => (
-          <Proyect key={proyect.company} {...proyect} />
+        {extraCurricular.map((project) => (
+          <Project key={project.company} {...project} />
         ))}
       </div>
     </section>
   );
 };
 
-const Proyect = ({ name, company, period, description }) => {
+const Project = ({ name, company, period, description }) => {
   return (
     <div className="experience__content">
       <div className="experience__time">

@@ -3,7 +3,6 @@ import {
   FaGithub,
   FaUserFriends,
 } from "react-icons/fa";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -11,6 +10,7 @@ function App() {
   const [user, setUser] = useState({});
   const [ setUserRepo] = useState([]);
   const githubUsername = "shafat21";
+  
 
   const fetchData = async () => {
     const userResponse = await fetch(
@@ -45,10 +45,10 @@ function App() {
       <div className="py-4 m-auto max-w-4xl">
         <nav className="flex items-center justify-between">
           <h1 className="text-3xl text-[#e2ebf8] font-medium font-['Fonarto']">
-            <span className="text-[#05BFDB]">Shafat21</span>.dev
+            <span className="text-[#05BFDB]">Shafat21</span>.dragonmind.<span className="text-[#05BFDB]">website</span>
           </h1>
           <div className="flex gap-x-3">
-            <a href="https://shafat21.dragonmind.website">
+            <a href="../cv.html">
               <button className="w-32 h-10 rounded-md text-sm text-[#fff] transition duration-300 hover:text-[#05BFDB]  font-semibold ">
                 About
               </button>

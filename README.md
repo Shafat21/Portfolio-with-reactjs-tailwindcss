@@ -18,6 +18,6 @@ I am a passionate web designer with [3 years] of experience in the industry. My 
 
 ## Contact Information
 For inquiries or to discuss a potential project, please contact me at:
-- Email: [shafat@dragondesignstudio.com](Shafat)
+- Email: [Contact](shafat@dragondesignstudio.com)
 
 Thank you for visiting my website!
